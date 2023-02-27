@@ -12,4 +12,4 @@ function groupById(array) {
   ];
   
   let usersById = groupById(users);
-  console.log(usersById);
+  console.log(usersById);//{john: {…}, ann: {…}, pete: {…}}
