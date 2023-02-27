@@ -1,6 +1,4 @@
 let obj = {};
-
-function A() { return; }
-function B() { return; }
-
+function A() { return obj; }
+function B() { return obj; }
 console.log( new A() == new B() );
